@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:text="Game name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/gameNameTextView" />
+    <LinearLayout
+        android:id="@+id/wrapper"
+        android:layout_width="360dp"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_height="360dp"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/LinearLayout8"
+            android:layout_width="match_parent"
+            android:layout_weight="0.125"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/squareA8"
+                android:tag="A8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareB8"
+                android:tag="B8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareC8"
+                android:tag="C8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareD8"
+                android:tag="D8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareE8"
+                android:tag="E8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareF8"
+                android:tag="F8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareG8"
+                android:tag="G8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareH8"
+                android:tag="H8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LinearLayout7"
+            android:layout_width="match_parent"
+            android:layout_weight="0.125"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/squareA7"
+                android:tag="A7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareB7"
+                android:tag="B7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareC7"
+                android:tag="C7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareD7"
+                android:tag="D7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareE7"
+                android:tag="E7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareF7"
+                android:tag="F7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareG7"
+                android:tag="G7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareH7"
+                android:tag="H7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LinearLayout6"
+            android:layout_width="match_parent"
+            android:layout_weight="0.125"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/squareA6"
+                android:tag="A6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareB6"
+                android:tag="B6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareC6"
+                android:tag="C6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareD6"
+                android:tag="D6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareE6"
+                android:tag="E6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareF6"
+                android:tag="F6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareG6"
+                android:tag="G6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareH6"
+                android:tag="H6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LinearLayout5"
+            android:layout_width="match_parent"
+            android:layout_weight="0.125"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/squareA5"
+                android:tag="A5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareB5"
+                android:tag="B5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareC5"
+                android:tag="C5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareD5"
+                android:tag="D5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareE5"
+                android:tag="E5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareF5"
+                android:tag="F5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareG5"
+                android:tag="G5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareH5"
+                android:tag="H5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LinearLayout4"
+            android:layout_width="match_parent"
+            android:layout_weight="0.125"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/squareA4"
+                android:tag="A4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareB4"
+                android:tag="B4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareC4"
+                android:tag="C4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareD4"
+                android:tag="D4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareE4"
+                android:tag="E4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareF4"
+                android:tag="F4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareG4"
+                android:tag="G4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareH4"
+                android:tag="H4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="match_parent"
+            android:layout_weight="0.125"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/squareA3"
+                android:tag="A3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareB3"
+                android:tag="B3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareC3"
+                android:tag="C3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareD3"
+                android:tag="D3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareE3"
+                android:tag="E3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareF3"
+                android:tag="F3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareG3"
+                android:tag="G3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareH3"
+                android:tag="H3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_weight="0.125"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/squareA2"
+                android:tag="A2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareB2"
+                android:tag="B2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareC2"
+                android:tag="C2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareD2"
+                android:tag="D2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareE2"
+                android:tag="E2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareF2"
+                android:tag="F2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareG2"
+                android:tag="G2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareH2"
+                android:tag="H2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_weight="0.125"
+            android:layout_height="0dp">
+            <Button
+                android:id="@+id/squareA1"
+                android:tag="A1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareB1"
+                android:tag="B1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareC1"
+                android:tag="C1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareD1"
+                android:tag="D1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareE1"
+                android:tag="E1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareF1"
+                android:tag="F1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+            <Button
+                android:id="@+id/squareG1"
+                android:tag="G1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent" />
+            <Button
+                android:id="@+id/squareH1"
+                android:tag="H1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:text="Oponent Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OpponentInfoButton" />
+    <Button
+        android:text="Write Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/WriteMessageButton" />
+</LinearLayout>

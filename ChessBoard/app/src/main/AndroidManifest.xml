@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="filip.chessboard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AfterLoginActivity" />
+        <activity android:name=".StartGameActivity" />
+        <activity android:name=".PlayerInfoActivity" />
+        <activity android:name=".ConversationActivity" />
+        <activity android:name=".ChessBoardActivity" />
+        <activity android:name=".GamesToJoinActivity" />
+        <activity
+            android:name=".ShowFriendsActivity"
+            android:label="@string/title_activity_show_friends"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
